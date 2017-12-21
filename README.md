@@ -6,7 +6,7 @@
 * [How to get access token](https://www.youtube.com/watch?v=m3YpkqhHKdk&t=1s)
 * [Why Token Expired](https://stackoverflow.com/questions/7030694/why-do-access-tokens-expire)
 * [Data Map is not a Function](https://stackoverflow.com/questions/30803168/data-map-is-not-a-function)
-* [Some preview_url do not exist. So dont worry.](https://github.com/spotify/web-api/issues/564)
+* [Some preview_urls do not exist. So dont worry.](https://github.com/spotify/web-api/issues/564)
 * [Refresh Tokens: When to Use Them and How They Interact with JWTs](https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/)
 * [Why Does OAuth v2 Have Both Access and Refresh Tokens?
 ](https://stackoverflow.com/questions/3487991/why-does-oauth-v2-have-both-access-and-refresh-tokens)
@@ -37,3 +37,5 @@ Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE
 Content-Type: application/json
 Www-Authenticate: Bearer realm="spotify", error="invalid_token", error_description="The access token expired"
 ```
+## create server to refresh ur access token 
+* (Spotify/web-api-auth-examples)[https://github.com/spotify/web-api-auth-examples]
