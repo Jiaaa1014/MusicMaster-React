@@ -38,4 +38,4 @@ Content-Type: application/json
 Www-Authenticate: Bearer realm="spotify", error="invalid_token", error_description="The access token expired"
 ```
 ## create server to refresh ur access token 
-* (Spotify/web-api-auth-examples)[https://github.com/spotify/web-api-auth-examples]
+* [Spotify/web-api-auth-examples](https://github.com/spotify/web-api-auth-examples)
