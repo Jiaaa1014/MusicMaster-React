@@ -1,5 +1,6 @@
 # musicMaster-React-
-
+## Template
+![](https://github.com/Jiaaa1014/MusicMaster-React/blob/master/public/musicMaster.gif)
 
 ## Reference
 * [Get an Artist's Top Tracks](https://developer.spotify.com/web-api/console/get-artist-top-tracks/?country=SE&id=43ZHCT0cAZBISjO8DG9PnE#complete)
