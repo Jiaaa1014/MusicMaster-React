@@ -1,5 +1,21 @@
 # musicMaster-React-
 
+## Before start the project
+go to the another directory
+```shell
+$ cd MusicMaster-React\web-api-auth-examples-master\authorization_code
+$ node app.js
+```
+1. Log In if you've already have spotify account.
+2. Take the complete access token from URL bar.
+3. Go to the src/App.jsx file
+```js
+ var accessToken = {{fresh token here}}
+```
+4. Then
+```shell
+$ npm start
+```
 
 ## Reference
 * [Get an Artist's Top Tracks](https://developer.spotify.com/web-api/console/get-artist-top-tracks/?country=SE&id=43ZHCT0cAZBISjO8DG9PnE#complete)
