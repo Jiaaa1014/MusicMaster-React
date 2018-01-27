@@ -19,14 +19,17 @@ $ npm start
 
 ## Reference
 * [Get an Artist's Top Tracks](https://developer.spotify.com/web-api/console/get-artist-top-tracks/?country=SE&id=43ZHCT0cAZBISjO8DG9PnE#complete)
-* [How to get access token](https://www.youtube.com/watch?v=m3YpkqhHKdk&t=1s)
+
+#### Problem Solved
 * [Why Token Expired](https://stackoverflow.com/questions/7030694/why-do-access-tokens-expire)
 * [Data Map is not a Function](https://stackoverflow.com/questions/30803168/data-map-is-not-a-function)
 * [Some preview_urls do not exist. So dont worry.](https://github.com/spotify/web-api/issues/564)
+
+#### Token
 * [Refresh Tokens: When to Use Them and How They Interact with JWTs](https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/)
 * [Why Does OAuth v2 Have Both Access and Refresh Tokens?
+* [How to get access token](https://www.youtube.com/watch?v=m3YpkqhHKdk&t=1s)
 ](https://stackoverflow.com/questions/3487991/why-does-oauth-v2-have-both-access-and-refresh-tokens)
-* [Spotify Example](https://github.com/angularcity/spotifyexample/tree/master/src)
 ## Request & Response
 ```
 GET /v1/artists/43ZHCT0cAZBISjO8DG9PnE/top-tracks?country=TW HTTP/1.1
@@ -53,5 +56,7 @@ Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE
 Content-Type: application/json
 Www-Authenticate: Bearer realm="spotify", error="invalid_token", error_description="The access token expired"
 ```
-## create server to refresh ur access token 
+## GitHubs
 * [Spotify/web-api-auth-examples](https://github.com/spotify/web-api-auth-examples)
+> Using it to refresh my own token
+* [Spotify Example](https://github.com/angularcity/spotifyexample/tree/master/src)
