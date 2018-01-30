@@ -27,7 +27,7 @@ $ npm start
 
 #### Token
 * [Refresh Tokens: When to Use Them and How They Interact with JWTs](https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/)
-* [Why Does OAuth v2 Have Both Access and Refresh Tokens?
+* [Why Does OAuth v2 Have Both Access and Refresh Tokens?](https://stackoverflow.com/questions/3487991/why-does-oauth-v2-have-both-access-and-refresh-tokens)
 * [How to get access token](https://www.youtube.com/watch?v=m3YpkqhHKdk&t=1s)
 ](https://stackoverflow.com/questions/3487991/why-does-oauth-v2-have-both-access-and-refresh-tokens)
 ## Request & Response
