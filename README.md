@@ -1,6 +1,8 @@
 # musicMaster-React-
+### Template
+![](https://github.com/Jiaaa1014/MusicMaster-React/blob/master/public/musicMaster.gif)
 
-## Before start the project
+### Before start the project
 go to the another directory
 ```shell
 $ cd MusicMaster-React\web-api-auth-examples-master\authorization_code
@@ -17,7 +19,7 @@ $ node app.js
 $ npm start
 ```
 
-## Reference
+### Reference
 * [Get an Artist's Top Tracks](https://developer.spotify.com/web-api/console/get-artist-top-tracks/?country=SE&id=43ZHCT0cAZBISjO8DG9PnE#complete)
 
 #### Problem Solved
@@ -30,7 +32,7 @@ $ npm start
 * [Why Does OAuth v2 Have Both Access and Refresh Tokens?](https://stackoverflow.com/questions/3487991/why-does-oauth-v2-have-both-access-and-refresh-tokens)
 * [How to get access token](https://www.youtube.com/watch?v=m3YpkqhHKdk&t=1s)
 ](https://stackoverflow.com/questions/3487991/why-does-oauth-v2-have-both-access-and-refresh-tokens)
-## Request & Response
+### Request & Response
 ```
 GET /v1/artists/43ZHCT0cAZBISjO8DG9PnE/top-tracks?country=TW HTTP/1.1
 Host: api.spotify.com
@@ -56,7 +58,7 @@ Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE
 Content-Type: application/json
 Www-Authenticate: Bearer realm="spotify", error="invalid_token", error_description="The access token expired"
 ```
-## GitHubs
+### GitHubs
 * [Spotify/web-api-auth-examples](https://github.com/spotify/web-api-auth-examples)
 > Using it to refresh my own token
 * [Spotify Example](https://github.com/angularcity/spotifyexample/tree/master/src)
