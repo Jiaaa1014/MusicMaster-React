@@ -10,11 +10,11 @@ $ node app.js
 ```
 1. 登入Spotify
 2. 從url地方拿到完整的access_token
-3. Go to the src/App.jsx file
+3. 到`src/App.jsx`，複製給予等等要用的變數
 ```js
  var accessToken = {{fresh token here}}
 ```
-4. Then
+4. 然後
 ```shell
 $ npm start
 ```
@@ -28,6 +28,7 @@ $ npm start
 * [Some preview_urls do not exist. So dont worry.](https://github.com/spotify/web-api/issues/564)
 
 ## Token
+* [OAuth 2.0 筆記](https://blog.yorkxin.org/2013/09/30/oauth2-1-introduction)
 * [Refresh Tokens: When to Use Them and How They Interact with JWTs](https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/)
 * [Why Does OAuth v2 Have Both Access and Refresh Tokens?](https://stackoverflow.com/questions/3487991/why-does-oauth-v2-have-both-access-and-refresh-tokens)
 * [How to get access token](https://www.youtube.com/watch?v=m3YpkqhHKdk&t=1s)
