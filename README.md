@@ -2,7 +2,7 @@
 ## Template
 ![](https://github.com/Jiaaa1014/MusicMaster-React/blob/master/public/musicMaster.gif)
 
-# 前置作業
+## 前置作業
 go to the another directory
 ```shell
 $ cd MusicMaster-React\web-api-auth-examples-master\authorization_code
